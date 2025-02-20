@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.games-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.game-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.game-card:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+.game-card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.game-card p {
+    margin: 10px 0 0;
+    color: #bbb;
+}
